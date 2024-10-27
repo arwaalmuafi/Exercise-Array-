@@ -73,18 +73,18 @@ public class Main {
          */
 
 
-//        ArrayList<Integer> number = new ArrayList();
-//
-//        number.add(20);
-//        number.add(30);
-//        number.add(40);
-//
-//        System.out.println("Original Array: "+number);
-//
-//        number.set(0,40);
-//        number.set(2,20);
-//
-//        System.out.println("New array after swapping the first and last elements: "+number);
+        ArrayList<Integer> number = new ArrayList();
+
+        number.add(20);
+        number.add(30);
+        number.add(40);
+
+        System.out.println("Original Array: "+number);
+int temp=number.get(0);
+        number.set(0,number.get(number.size()-1));
+        number.set(number.size()-1,temp);
+
+        System.out.println("New array after swapping the first and last elements: "+number);
 
 
 
