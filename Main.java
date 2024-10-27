@@ -57,8 +57,8 @@ public class Main {
 //        if (array.length>0){
 //            int first = array [0];
 //            int last = array[array.length - 1];
-//           int largervakue= Math.max(first,last);
-//            System.out.println("Larger value between first and last element: "+largervakue);
+//           int largervalue= Math.max(first,last);
+//            System.out.println("Larger value between first and last element: "+largervalue);
 //        }else System.out.println();
 
 
